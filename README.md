@@ -1,14 +1,15 @@
-# TesteEcommerceCypress
+ TesteEcommerceCypress
 Teste de Automação com Cypress criar cadastro do cliente no site do submarino e fazer busca de produtos
 
 
-## Visão Geral
+ Visão Geral
+
 Este é um projeto de teste automatizado com Cypress para treinamento utilizei o site do submarino para teste o qual foi automatizado os seguintes elementos;
 -Preenchimento do cadastro de cliente campos obrigatórios
 -Busca de produtos exemplo pesquisa Laptop
 -Colocar produto no carrinho de compra
 
-## 1 Cenarios de testes Cadastrar cliente
+ 1 Cenarios de testes Cadastrar cliente
 
 Site https://cliente.submarino.com.br/minha-conta/cadastro?next=https://www.submarino.com.br/
 
@@ -33,7 +34,7 @@ Clique para concordar em compartilhar dados com parceiros (opcional)
 Submete o formulário
 
 
-## 2 Cenarios de testes Pesquisar produto e colocar no carribho de compras
+ 2 Cenarios de testes Pesquisar produto e colocar no carribho de compras
 
 Site https://www.submarino.com.br/
 
@@ -70,7 +71,7 @@ Clicar em continuar escolher garantias
    
 
 
-## Pré-requisitos
+Pré-requisitos
      Cypress esta inserido na package.json
          "scripts": {
          "test": "echo \"Error: no test specified\" && exit 1",
@@ -80,7 +81,7 @@ Clicar em continuar escolher garantias
   
 Quando a interação com o reCAPTCHA é complexa e não pode ser automatizada de forma confiável, é possível realizar essa etapa manualmente durante os testes, desde que seja viável em seu processo de desenvolvimento e teste.
 
-## Instalação
+ Instalação
 
 Descreva como os usuários podem instalar e configurar o seu projeto em seus próprios sistemas. Inclua comandos ou etapas específicas.
 
